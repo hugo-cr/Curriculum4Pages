@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Curriculum Vitae María Parra </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="banner"><img
+            src="imagenes2/banner.jpg"
+            alt="Banner">
+    </div>
+    <div class="principal">
+        <section class="seccionSuperior">
+            <div class="imagenPerfil">
+                <img src="imagenes2/profile2.jpg" alt="Foto de perfil">
+            </div>
+            <div class="seccionTituloBarra">
+                <div class="tituloPrincipal">
+                    <br>
+                    <h2><em>CURRICULUM VITAE</em></h2>
+                    <h2><em>MARÍA JESÚS PARRA FUENTES</em></h2>
+
+                </div>
+                <div class="barraNavegacion">
+                    <nav>
+                        <a href="index.html"> Sobre mi</a>
+                        <a href="proyectos.html"> Proyectos</a>
+                        <a href="#" class="activa">Galería</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="galeria">
+            <h1> Más de tres años en el rubro del marketing digital </h1>
+            <hr>
+            <h1>Imágenes</h1>
+
+            <div class="imagenes">
+
+                <div class="elementoImagen" id="imagen1.JPG">
+                    <img src="imagenes2/imagen1.JPG" onclick="agrandarImagen('imagen1.JPG')" alt="img1" />
+                </div>
+                <div class="elementoImagen" id="imagen2.JPG">
+                    <img src="imagenes2/imagen2.JPG" onclick="agrandarImagen('imagen2.JPG')" alt="img2" />
+                </div>
+                <div class="elementoImagen" id="imagen3.JPG">
+                    <img src="imagenes2/imagen3.JPG" onclick="agrandarImagen('imagen3.JPG')" alt="img3" />
+                </div>
+                <div class="elementoImagen" id="imagen4.JPG">
+                    <img src="imagenes2/imagen4.JPG" onclick="agrandarImagen('imagen4.JPG')" alt="img4" />
+                </div>
+                <div class="elementoImagen" id="imagen5.JPG">
+                    <img src="imagenes2/imagen5.JPG" onclick="agrandarImagen('imagen5.JPG')" alt="img5" />
+                </div>
+                <div class="elementoImagen" id="imagen6.JPG">
+                    <img src="imagenes2/imagen6.JPG" onclick="agrandarImagen('imagen6.JPG')" alt="img6" />
+                </div>
+                <div class="elementoImagen" id="imagen7.jpeg">
+                    <img src="imagenes2/imagen7.jpeg" class="vertical" onclick="agrandarImagen('imagen7.jpeg')" />
+                </div>
+            </div>
+
+            <div class="imagenGrande"><img id="imagenVariable" alt="Imagen seleccionada" src="imagenes2/vacio.png" />
+            </div>
+
+
+
+            <div class="seccionVideos">
+                <hr>
+                <h1>Videos</h1>
+                <iframe width="700" height="394" src="https://www.youtube.com/embed/IMDfxRxIxyA"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer class="footerPagina"><br><br>
+            &copy; María Parra, 2021
+        </footer>
+    </div>
+    <script src=scripts.js></script>
+</body>
+
+</html>

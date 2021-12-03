@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Curriculum Vitae María Parra </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="banner"><img src="imagenes2/banner.jpg" alt="Banner">
+    </div>
+    <div class= "principal">
+    <section class="seccionSuperior">
+        <div class="imagenPerfil">
+            <img src="imagenes2/profile2.jpg" alt= "Foto de perfil">
+        </div>
+        <div class="seccionTituloBarra">
+            <div class="tituloPrincipal">
+                    <br><h2><em>CURRICULUM VITAE</em></h2>
+                    <h2><em>MARÍA JESÚS PARRA FUENTES</em></h2>
+
+            </div>
+            <div class="barraNavegacion">
+                <nav>
+                    <a href="index.html" > Sobre mi</a>
+                    <a href="#" class="activa"> Proyectos</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a></nav>
+            </div>
+
+    </div>
+
+    </section>
+    <div id="proyectos">
+        <h1> CASOS DE EXITO </h1>
+        <h2>Informe de casos de exito en trayectoria laboral</h2>
+        <ul>
+            <li><span> Departamento Comunicaciones Naviera Arauco:</span> Levantamiento Departamento Conmunicaciones Interna</li>
+            <li><span>Editorial "Diario el Sur":</span> Adjudicación de gran proyecto editorial dentro del diario digital más importante del país</li>
+            <li> Creación marca Zeus Discos <span> Creación de la marca Discos zeus y de su catálogo corporativo para uso comercial.</span></li></ul>
+    </div>
+    <hr>
+    <div class="seccionFormularios">
+        <h2>¡REALIZEMOS TU PROYECTO! </h2>
+        <div id="botonFormulario">
+            <input type="button" value= "Escríbenos" onclick= "mostrarFormulario()" />  
+        </div>
+        <div id= "formulario">
+            <form>
+                <label for="fname"> Tu nombre: </label> <br>
+                <input type="text" id="fname" name="fname"> <br>
+                <label for="lname">Mail: </label> <br>
+                <input type="text" id="lname" name="lname"> <br>
+                <label for="message">Tu mensaje: </label> <br>
+                <textarea id="message" name="message"></textarea>
+                <br> <br>
+                <input type="submit" value="Enviar" onclick= "mensajeEnviado()"/>
+            </form>
+        </div>
+    </div>
+    <footer class= "footerPagina"><br><br>
+        &copy; María Parra, 2021
+    </footer>
+    </div>
+    <script src= scripts.js></script>
+</body></html>
